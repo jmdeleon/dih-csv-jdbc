@@ -1,0 +1,3 @@
+#!/bin/bash
+# awk 'NR==1{sub(/^\xef\xbb\xbf/,"")}1' $*
+sed -i '1 s/^\xef\xbb\xbf//' $*
