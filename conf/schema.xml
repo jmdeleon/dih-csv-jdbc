@@ -202,10 +202,11 @@
                 protected="protwords.txt"
                 generateWordParts="1"
                 generateNumberParts="1"
-                catenateWords="0"
-                catenateNumbers="0"
+                catenateWords="1"
+                catenateNumbers="1"
                 catenateAll="0"
                 splitOnCaseChange="0"
+                splitOnNumerics="0"
                 preserveOriginal="1"/>
         <filter class="solr.LengthFilterFactory" min="2" max="100" />
         <filter class="solr.LowerCaseFilterFactory"/>
